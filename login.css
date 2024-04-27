@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    top: 0;
+    background-image: url("https://cdn.pixabay.com/photo/2024/03/05/10/38/boat-8614314_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login-form{
+    height: 500px;
+    width: 500px;
+    padding: 30px;
+    background: transparent;
+/*    backdrop-filter: blur(15px);*/
+    position: absolute;
+    top: 20%;
+    right: 200px;
+    border-radius: 50px;
+    box-shadow: -6px -6px 20px transparent;
+}
+input{
+    width: 90%;
+    margin-top: 20px;
+    height: 60px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 3px solid white;
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+}
+.lgn{
+    font-family: Arial Black;
+    color: lightcoral;
+}
+.lgnbtn{
+    border: none;
+    background-color: royalblue;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 25px;
+    line-height: 10px;
+    font-family: Arial Black;
+}
